@@ -304,7 +304,7 @@ YOLOv11n-RDK-X5/
 
 - 项目主页：https://github.com/your-username/YOLOv11n-RDK-X5
 - 问题反馈：https://github.com/your-username/YOLOv11n-RDK-X5/issues
-- 邮箱：your-email@example.com
+- 邮箱：1580195000@qq.com
 
 ---
 
