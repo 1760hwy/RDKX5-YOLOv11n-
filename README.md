@@ -79,7 +79,7 @@
 #### 步骤1：克隆项目
 
 ```bash
-git clone https://github.com/your-username/YOLOv11n-RDK-X5.git
+git clone https://github.com/1760hwy/YOLOv11n-RDK-X5.git
 cd YOLOv11n-RDK-X5
 ```
 
@@ -279,7 +279,7 @@ YOLOv11n-RDK-X5/
 
 感谢所有为本项目做出贡献的开发者！
 
-<a href="https://github.com/your-username/YOLOv11n-RDK-X5/graphs/contributors">
+<a href="https://github.com/1760hwy/YOLOv11n-RDK-X5/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=your-username/YOLOv11n-RDK-X5" />
 </a>
 
@@ -312,7 +312,7 @@ YOLOv11n-RDK-X5/
 
 如果这个项目对你有帮助，请给我们一个Star ⭐！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/#your-username/YOLOv11n-RDK-X5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=your-username/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/1760hwy/YOLOv11n-RDK-X5&Date)
 
 ---
 
