@@ -302,8 +302,8 @@ YOLOv11n-RDK-X5/
 
 ## 📞 联系方式
 
-- 项目主页：https://github.com/your-username/YOLOv11n-RDK-X5
-- 问题反馈：https://github.com/your-username/YOLOv11n-RDK-X5/issues
+- 项目主页：https://github.com/1760hwy/YOLOv11n-RDK-X5
+- 问题反馈：https://github.com/1760hwy/YOLOv11n-RDK-X5/issues
 - 邮箱：1580195000@qq.com
 
 ---
@@ -312,7 +312,7 @@ YOLOv11n-RDK-X5/
 
 如果这个项目对你有帮助，请给我们一个Star ⭐！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/1760hwy/YOLOv11n-RDK-X5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/1760hwy/YOLOv11n-RDK-X5&Date)
 
 ---
 
