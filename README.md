@@ -281,8 +281,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details
 
 Thanks to all developers who contributed to this project!
 
-<a href="https://github.com/1760hwy/RDKX5-YOLOv11n-/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=1760hwy/RDKX5-YOLOv11n-" />
+<a href="https://github.com/1760hwy/RDKX5-YOLOv11n-INT8/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=1760hwy/RDKX5-YOLOv11n-INT8" />
 </a>
 
 ---
@@ -314,7 +314,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 If this project helps you, please give us a Star ⭐!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/RDKX5-YOLOv11n-&type=Date)](https://star-history.com/1760hwy/RDKX5-YOLOv11n-&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/RDKX5-YOLOv11n-INT8&type=Date)](https://star-history.com/1760hwy/RDKX5-YOLOv11n-INT8&Date)
 
 ---
 
