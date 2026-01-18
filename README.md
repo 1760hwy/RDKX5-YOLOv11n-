@@ -6,12 +6,12 @@ English | [简体中文](README_ZH.md)
 
 <div align="center">
 
-![YOLOv11](https://img.shields.io/badge/YOLOv11-n-blue)
+![YOLO11n](https://img.shields.io/badge/YOLO11-n-blue)
 ![RDK X5](https://img.shields.io/badge/RDK-X5-green)
 ![Performance](https://img.shields.io/badge/FPS-47-red)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
-**Deploy YOLOv11n on Horizon RDK X5 with 47 FPS Real-time Object Detection**
+**Deploy YOLO11n on Horizon RDK X5 with 47 FPS Real-time Object Detection**
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Performance](#-performance) • [Documentation](#-documentation) • [Contributing](#-contributing)
 
@@ -21,7 +21,7 @@ English | [简体中文](README_ZH.md)
 
 ## 📖 Project Overview
 
-This project provides a **complete solution** for deploying YOLOv11n model on Horizon RDK X5 development board, including:
+This project provides a **complete solution** for deploying YOLO11n model on Horizon RDK X5 development board, including:
 - ✅ Complete pipeline from ONNX export to PTQ quantization
 - ✅ Critical optimization for Softmax operator performance bottleneck
 - ✅ High-performance real-time detection code (47 FPS)
@@ -29,13 +29,13 @@ This project provides a **complete solution** for deploying YOLOv11n model on Ho
 
 ### Why This Project?
 
-When deploying YOLOv11n to RDK X5, we encountered severe performance issues:
+When deploying YOLO11n to RDK X5, we encountered severe performance issues:
 
 - ❌ **Initial Attempt**: 126ms latency, only 7 FPS
 - ❌ **Quantization Accuracy Normal**: Cosine similarity > 0.99
 - ❌ **Detection Working**: But too slow to be practical
 
-After in-depth research, we discovered that the **Softmax operator** in YOLOv11's new C2PSA module runs on CPU by default, causing frequent CPU-BPU data transfers and a **17x performance drop**!
+After in-depth research, we discovered that the **Softmax operator** in YOLO11's new C2PSA module runs on CPU by default, causing frequent CPU-BPU data transfers and a **17x performance drop**!
 
 With our optimization approach:
 - ✅ **Optimized**: 10.8ms latency, **92 FPS** (BPU throughput)
