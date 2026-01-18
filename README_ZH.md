@@ -1,11 +1,11 @@
 <<<<<<< HEAD
 <div id="top"></div>
 
-# RDKX5-YOLOv11n- 🚀
+# YOLO11n-INT8 🚀
 
 [English](README_EN.md) | 简体中文
 =======
-# YOLOv11n-RDK-X5 🚀
+# YOLO11n-INT8 🚀
 
 [English](README.md) | 简体中文
 >>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
@@ -297,11 +297,11 @@ YOLOv11n-RDK-X5/
 感谢所有为本项目做出贡献的开发者！
 
 <<<<<<< HEAD
-<a href="https://github.com/1760hwy/RDKX5-YOLOv11n-/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=your-username/RDKX5-YOLOv11n-" />
+<a href="https://github.com/1760hwy/YOLO11n-INT8/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=your-username/YOLO11n-INT8" />
 =======
-<a href="https://github.com/1760hwy/YOLOv11n-RDK-X5/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=your-username/YOLOv11n-RDK-X5" />
+<a href="https://github.com/1760hwy/YOLO11n-INT8/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=your-username/YOLO11n-INT8" />
 >>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 </a>
 
@@ -325,11 +325,11 @@ YOLOv11n-RDK-X5/
 ## 📞 联系方式
 
 <<<<<<< HEAD
-- 项目主页：https://github.com/1760hwy/RDKX5-YOLOv11n-
-- 问题反馈：https://github.com/1760hwy/RDKX5-YOLOv11n-/issues
+- 项目主页：https://github.com/1760hwy/YOLO11n-INT8
+- 问题反馈：https://github.com/1760hwy/YOLO11n-INT8/issues
 =======
-- 项目主页：https://github.com/1760hwy/YOLOv11n-RDK-X5
-- 问题反馈：https://github.com/1760hwy/YOLOv11n-RDK-X5/issues
+- 项目主页：https://github.com/1760hwy/YOLO11n-INT8
+- 问题反馈：https://github.com/1760hwy/YOLO11n-INT8/issues
 >>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 - 邮箱：1580195000@qq.com
 
@@ -340,9 +340,9 @@ YOLOv11n-RDK-X5/
 如果这个项目对你有帮助，请给我们一个Star ⭐！
 
 <<<<<<< HEAD
-[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/RDKX5-YOLOv11n-&type=Date)](https://star-history.com/1760hwy/RDKX5-YOLOv11n-&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/YOLO11n-INT8&type=Date)](https://star-history.com/1760hwy/YOLO11n-INT8&Date)
 =======
-[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/1760hwy/YOLOv11n-RDK-X5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/YOLO11n-INT8&type=Date)](https://star-history.com/1760hwy/YOLO11n-INT8&Date)
 >>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ---
