@@ -12,12 +12,12 @@
 
 <div align="center">
 
-![YOLOv11](https://img.shields.io/badge/YOLOv11-n-blue)
+![YOLO11](https://img.shields.io/badge/YOLO11-n-blue)
 ![RDK X5](https://img.shields.io/badge/RDK-X5-green)
 ![Performance](https://img.shields.io/badge/FPS-47-red)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
-**在地平线RDK X5上部署YOLOv11n，实现47 FPS实时目标检测**
+**在地平线RDK X5上部署YOLO11n，实现47 FPS实时目标检测**
 
 [特性](#-特性) • [快速开始](#-快速开始) • [性能](#-性能) • [文档](#-文档) • [贡献](#-贡献)
 
@@ -27,7 +27,7 @@
 
 ## 📖 项目简介
 
-本项目提供了在地平线RDK X5开发板上部署YOLOv11n模型的**完整解决方案**，包括：
+本项目提供了在地平线RDK X5开发板上部署YOLO11n模型的**完整解决方案**，包括：
 - ✅ 从ONNX导出到PTQ量化的完整流程
 - ✅ 解决Softmax算子性能瓶颈的关键优化
 - ✅ 高性能实时检测代码（47 FPS）
@@ -41,7 +41,7 @@
 - ❌ **量化精度正常**：余弦相似度>0.99
 - ❌ **检测功能正常**：但就是慢得无法使用
 
-经过深入研究，我们发现YOLOv11新增的C2PSA模块中的**Softmax算子**默认在CPU运行，导致CPU-BPU频繁数据传输，性能暴跌**17倍**！
+经过深入研究，我们发现YOLO11新增的C2PSA模块中的**Softmax算子**默认在CPU运行，导致CPU-BPU频繁数据传输，性能暴跌**17倍**！
 
 通过本项目的优化方案：
 - ✅ **优化后**：10.8ms延迟，**92 FPS**（BPU吞吐）
