@@ -1,6 +1,10 @@
 # GitHub 推送指南 🚀
 
+<<<<<<< HEAD
 完整的将 RDKX5-YOLOv11n- 项目推送到 GitHub 的详细指南
+=======
+完整的将 YOLOv11n-RDK-X5 项目推送到 GitHub 的详细指南
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ---
 
@@ -61,7 +65,11 @@ GitHub 不再接受密码进行 Git 操作，你需要个人访问令牌：
 
 1. 访问 https://github.com/settings/tokens
 2. 点击 **Generate new token** → **Generate new token (classic)**
+<<<<<<< HEAD
 3. 设置令牌名称：`RDKX5-YOLOv11n-`
+=======
+3. 设置令牌名称：`YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 4. 选择权限：勾选 `repo`（完全控制）
 5. 点击 **Generate token**
 6. **重要**：立即复制令牌（只显示一次！）
@@ -124,7 +132,11 @@ git log
 
 1. 访问 https://github.com/new
 2. 填写详细信息：
+<<<<<<< HEAD
    - **仓库名称**：`RDKX5-YOLOv11n-`
+=======
+   - **仓库名称**：`YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    - **描述**：`在地平线RDK X5上部署YOLOv11n，实现47 FPS实时目标检测`
    - **可见性**：Public（公开）或 Private（私有）
    - **不要**勾选初始化 README、.gitignore 或许可证
@@ -142,14 +154,22 @@ git log
 gh auth login
 
 # 创建仓库
+<<<<<<< HEAD
 gh repo create RDKX5-YOLOv11n- --public --description "在地平线RDK X5上部署YOLOv11n，实现47 FPS实时检测"
+=======
+gh repo create YOLOv11n-RDK-X5 --public --description "在地平线RDK X5上部署YOLOv11n，实现47 FPS实时检测"
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### 第6步：关联本地仓库到 GitHub
 
 ```bash
 # 添加 GitHub 仓库为远程仓库
+<<<<<<< HEAD
 git remote add origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote add origin https://github.com/你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 将 "你的用户名" 替换为你实际的 GitHub 用户名
 
@@ -178,7 +198,11 @@ git push -u origin main
 
 ### 第8步：验证上传
 
+<<<<<<< HEAD
 1. 访问 `https://github.com/你的用户名/RDKX5-YOLOv11n-`
+=======
+1. 访问 `https://github.com/你的用户名/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 2. 你应该看到：
    - ✅ README.md 显示在主页
    - ✅ 所有文件已上传
@@ -214,7 +238,11 @@ git push -u origin main
 ### 第4步：发布到 GitHub
 
 1. 点击 **Publish repository** 按钮
+<<<<<<< HEAD
 2. 设置仓库名称：`RDKX5-YOLOv11n-`
+=======
+2. 设置仓库名称：`YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 3. 添加描述
 4. 选择 **Public**（公开）或 **Private**（私有）
 5. 点击 **Publish Repository**
@@ -327,7 +355,11 @@ fatal: repository 'https://github.com/...' not found
 git remote -v
 
 # 如果错误，更新远程 URL
+<<<<<<< HEAD
 git remote set-url origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote set-url origin https://github.com/你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 验证 URL 中的用户名与你的 GitHub 账号匹配
 ```
@@ -411,7 +443,11 @@ cat ~/.ssh/id_ed25519.pub
 # 4. 点击 "Add SSH key"
 
 # 更新远程仓库使用 SSH
+<<<<<<< HEAD
 git remote set-url origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote set-url origin git@github.com:你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 测试连接
 ssh -T git@github.com
@@ -522,7 +558,11 @@ git push --tags
 3. 分支：`main` → `/docs`
 4. 保存
 
+<<<<<<< HEAD
 你的文档将在：`https://你的用户名.github.io/RDKX5-YOLOv11n-`
+=======
+你的文档将在：`https://你的用户名.github.io/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ### 4. 设置 CI/CD（可选）
 
@@ -548,9 +588,15 @@ jobs:
 ### 5. 在 README 中添加徽章
 
 ```markdown
+<<<<<<< HEAD
 ![Build](https://github.com/你的用户名/RDKX5-YOLOv11n-/workflows/Test/badge.svg)
 ![License](https://img.shields.io/github/license/你的用户名/RDKX5-YOLOv11n-)
 ![Stars](https://img.shields.io/github/stars/你的用户名/RDKX5-YOLOv11n-?style=social)
+=======
+![Build](https://github.com/你的用户名/YOLOv11n-RDK-X5/workflows/Test/badge.svg)
+![License](https://img.shields.io/github/license/你的用户名/YOLOv11n-RDK-X5)
+![Stars](https://img.shields.io/github/stars/你的用户名/YOLOv11n-RDK-X5?style=social)
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ---
@@ -677,4 +723,8 @@ git stash apply            # 应用最新暂存
 
 分享你的仓库链接，开始围绕你的项目建立社区！
 
+<<<<<<< HEAD
 仓库地址：`https://github.com/你的用户名/RDKX5-YOLOv11n-`
+=======
+仓库地址：`https://github.com/你的用户名/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6

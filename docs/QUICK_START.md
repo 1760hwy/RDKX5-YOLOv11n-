@@ -9,8 +9,13 @@
 ```bash
 # 1. 创建项目目录
 cd ~
+<<<<<<< HEAD
 mkdir RDKX5-YOLOv11n-
 cd RDKX5-YOLOv11n-
+=======
+mkdir YOLOv11n-RDK-X5
+cd YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 2. 复制所有准备好的文件到这里
 # （从/mnt/user-data/outputs/github_project/复制）
@@ -26,6 +31,7 @@ git init
 git add .
 git commit -m "Initial commit: YOLOv11n RDK X5 project"
 
+<<<<<<< HEAD
 # 5. 在GitHub网页创建仓库（名为RDKX5-YOLOv11n-）
 # 访问：https://github.com/new
 
@@ -38,6 +44,19 @@ git push -u origin main
 ```
 
 完成！访问 `https://github.com/你的用户名/RDKX5-YOLOv11n-` 查看项目。
+=======
+# 5. 在GitHub网页创建仓库（名为YOLOv11n-RDK-X5）
+# 访问：https://github.com/new
+
+# 6. 关联并推送
+git remote add origin https://github.com/$YOUR_USERNAME/YOLOv11n-RDK-X5.git
+git push -u origin main
+
+# 输入GitHub用户名和密码（密码用Personal Access Token）
+```
+
+完成！访问 `https://github.com/你的用户名/YOLOv11n-RDK-X5` 查看项目。
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ---
 
@@ -148,7 +167,11 @@ compiler_parameters:
 ## 📦 完整文件结构
 
 ```
+<<<<<<< HEAD
 RDKX5-YOLOv11n-/
+=======
+YOLOv11n-RDK-X5/
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ├── README.md                          ✅ 已创建
 ├── README_EN.md                       ⚠️  可选（英文版README）
 ├── LICENSE                            ✅ 已创建
@@ -202,7 +225,11 @@ RDKX5-YOLOv11n-/
 ### 方法1：复制你现有的代码
 
 ```bash
+<<<<<<< HEAD
 cd ~/RDKX5-YOLOv11n-
+=======
+cd ~/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 创建目录
 mkdir -p configs rdk_deployment examples

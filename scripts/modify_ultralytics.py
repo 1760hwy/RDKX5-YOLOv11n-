@@ -3,7 +3,11 @@
 修改Ultralytics YOLOv11输出头
 将单一输出拆分为6个输出（3个bbox + 3个cls）
 
+<<<<<<< HEAD
 作者: RDKX5-YOLOv11n-项目
+=======
+作者: YOLOv11n-RDK-X5项目
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 许可证: MIT
 """
 

@@ -6,9 +6,15 @@
 
 ### 1. 下载项目文件
 
+<<<<<<< HEAD
 你已经下载了项目压缩包 `RDKX5-YOLOv11n-.zip`，解压到：
 ```
 C:\Users\你的用户名\Desktop\RDKX5-YOLOv11n-
+=======
+你已经下载了项目压缩包 `YOLOv11n-RDK-X5.zip`，解压到：
+```
+C:\Users\你的用户名\Desktop\YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### 2. 安装Git for Windows
@@ -56,7 +62,11 @@ git config --global user.email "你的邮箱@example.com"
 1. 在GitHub Desktop中，点击 **File** → **New repository**
 2. 填写信息：
    ```
+<<<<<<< HEAD
    Name: RDKX5-YOLOv11n-
+=======
+   Name: YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    Local path: C:\Users\你的用户名\Desktop
    ```
 3. **取消勾选** "Initialize this repository with a README"
@@ -64,7 +74,11 @@ git config --global user.email "你的邮箱@example.com"
 
 ### 步骤3：复制项目文件
 
+<<<<<<< HEAD
 1. 打开文件夹：`C:\Users\你的用户名\Desktop\RDKX5-YOLOv11n-`
+=======
+1. 打开文件夹：`C:\Users\你的用户名\Desktop\YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 2. 删除里面的 `.git` 文件夹（如果有）
 3. 将下载的项目文件**全部复制**到这个文件夹
 
@@ -94,7 +108,11 @@ git config --global user.email "你的邮箱@example.com"
 
 1. 点击顶部的 **Publish repository**
 2. 确认信息：
+<<<<<<< HEAD
    - Name: `RDKX5-YOLOv11n-`
+=======
+   - Name: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    - Description: `YOLOv11n部署到地平线RDK X5，实现47 FPS实时检测`
    - 勾选 **Public**（公开项目）
 3. 点击 **Publish repository**
@@ -119,7 +137,11 @@ git config --global user.email "你的邮箱@example.com"
 ### 步骤2：进入项目目录
 
 ```powershell
+<<<<<<< HEAD
 cd C:\Users\你的用户名\Desktop\RDKX5-YOLOv11n-
+=======
+cd C:\Users\你的用户名\Desktop\YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### 步骤3：修改个人信息
@@ -143,7 +165,11 @@ git commit -m "Initial commit: YOLOv11n RDK X5 project"
 ### 步骤5：在GitHub创建仓库
 
 1. 访问：https://github.com/new
+<<<<<<< HEAD
 2. Repository name: `RDKX5-YOLOv11n-`
+=======
+2. Repository name: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 3. Description: `YOLOv11n部署到地平线RDK X5，实现47 FPS实时检测`
 4. 选择 **Public**
 5. **不要勾选**任何初始化选项
@@ -153,7 +179,11 @@ git commit -m "Initial commit: YOLOv11n RDK X5 project"
 
 ```powershell
 # 替换为你的GitHub用户名
+<<<<<<< HEAD
 git remote add origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote add origin https://github.com/你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 git branch -M main
 git push -u origin main
 ```
@@ -167,7 +197,11 @@ git push -u origin main
 1. 访问：https://github.com/settings/tokens
 2. 点击 **Generate new token** → **Generate new token (classic)**
 3. 设置：
+<<<<<<< HEAD
    - Note: `RDKX5-YOLOv11n-`
+=======
+   - Note: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    - Expiration: `90 days`
    - 勾选权限：`repo`（全选）
 4. 点击 **Generate token**
@@ -453,7 +487,11 @@ git checkout -b 分支名
 git checkout 分支名
 
 # 克隆仓库
+<<<<<<< HEAD
 git clone git@github.com:用户名/仓库名.git
+=======
+git clone https://github.com/用户名/仓库名.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ---

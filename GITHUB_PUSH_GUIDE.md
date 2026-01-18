@@ -1,6 +1,10 @@
 # GitHub Push Guide 🚀
 
+<<<<<<< HEAD
 Complete guide to pushing your RDKX5-YOLOv11n- project to GitHub
+=======
+Complete guide to pushing your YOLOv11n-RDK-X5 project to GitHub
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ---
 
@@ -61,7 +65,11 @@ GitHub no longer accepts passwords for Git operations. You need a Personal Acces
 
 1. Go to https://github.com/settings/tokens
 2. Click **Generate new token** → **Generate new token (classic)**
+<<<<<<< HEAD
 3. Set token name: `RDKX5-YOLOv11n-`
+=======
+3. Set token name: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 4. Select scopes: Check `repo` (full control)
 5. Click **Generate token**
 6. **IMPORTANT**: Copy the token immediately (shown only once!)
@@ -124,7 +132,11 @@ git log
 
 1. Visit https://github.com/new
 2. Fill in details:
+<<<<<<< HEAD
    - **Repository name**: `RDKX5-YOLOv11n-`
+=======
+   - **Repository name**: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    - **Description**: `Deploy YOLOv11n on Horizon RDK X5 with 47 FPS real-time object detection`
    - **Visibility**: Public (or Private if preferred)
    - **DO NOT** initialize with README, .gitignore, or license
@@ -142,14 +154,22 @@ git log
 gh auth login
 
 # Create repository
+<<<<<<< HEAD
 gh repo create RDKX5-YOLOv11n- --public --description "Deploy YOLOv11n on Horizon RDK X5 with 47 FPS"
+=======
+gh repo create YOLOv11n-RDK-X5 --public --description "Deploy YOLOv11n on Horizon RDK X5 with 47 FPS"
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### Step 6: Link Local Repository to GitHub
 
 ```bash
 # Add GitHub repository as remote
+<<<<<<< HEAD
 git remote add origin git@github.com:YOUR_USERNAME/RDKX5-YOLOv11n-.git
+=======
+git remote add origin https://github.com/YOUR_USERNAME/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # Replace YOUR_USERNAME with your actual GitHub username
 
@@ -178,7 +198,11 @@ git push -u origin main
 
 ### Step 8: Verify Upload
 
+<<<<<<< HEAD
 1. Visit `https://github.com/YOUR_USERNAME/RDKX5-YOLOv11n-`
+=======
+1. Visit `https://github.com/YOUR_USERNAME/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 2. You should see:
    - ✅ README.md displayed on homepage
    - ✅ All files uploaded
@@ -214,7 +238,11 @@ If not initialized:
 ### Step 4: Publish to GitHub
 
 1. Click **Publish repository** button
+<<<<<<< HEAD
 2. Set repository name: `RDKX5-YOLOv11n-`
+=======
+2. Set repository name: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 3. Add description
 4. Choose **Public** or **Private**
 5. Click **Publish Repository**
@@ -327,7 +355,11 @@ fatal: repository 'https://github.com/...' not found
 git remote -v
 
 # Update remote URL if wrong
+<<<<<<< HEAD
 git remote set-url origin git@github.com:YOUR_USERNAME/RDKX5-YOLOv11n-.git
+=======
+git remote set-url origin https://github.com/YOUR_USERNAME/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # Verify username in URL matches your GitHub account
 ```
@@ -411,7 +443,11 @@ cat ~/.ssh/id_ed25519.pub
 # 4. Click "Add SSH key"
 
 # Update remote to use SSH
+<<<<<<< HEAD
 git remote set-url origin git@github.com:YOUR_USERNAME/RDKX5-YOLOv11n-.git
+=======
+git remote set-url origin git@github.com:YOUR_USERNAME/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # Test connection
 ssh -T git@github.com
@@ -522,7 +558,11 @@ For documentation website:
 3. Branch: `main` → `/docs`
 4. Save
 
+<<<<<<< HEAD
 Your docs will be at: `https://YOUR_USERNAME.github.io/RDKX5-YOLOv11n-`
+=======
+Your docs will be at: `https://YOUR_USERNAME.github.io/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ### 4. Set Up CI/CD (Optional)
 
@@ -548,9 +588,15 @@ jobs:
 ### 5. Add Badges to README
 
 ```markdown
+<<<<<<< HEAD
 ![Build](https://github.com/YOUR_USERNAME/RDKX5-YOLOv11n-/workflows/Test/badge.svg)
 ![License](https://img.shields.io/github/license/YOUR_USERNAME/RDKX5-YOLOv11n-)
 ![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/RDKX5-YOLOv11n-?style=social)
+=======
+![Build](https://github.com/YOUR_USERNAME/YOLOv11n-RDK-X5/workflows/Test/badge.svg)
+![License](https://img.shields.io/github/license/YOUR_USERNAME/YOLOv11n-RDK-X5)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOLOv11n-RDK-X5?style=social)
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ---
@@ -677,4 +723,8 @@ After pushing to GitHub, verify:
 
 Share your repository link and start building a community around your project!
 
+<<<<<<< HEAD
 Repository URL: `https://github.com/YOUR_USERNAME/RDKX5-YOLOv11n-`
+=======
+Repository URL: `https://github.com/YOUR_USERNAME/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6

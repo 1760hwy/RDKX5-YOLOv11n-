@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # RDKX5-YOLOv11n- Python依赖
+=======
+# YOLOv11n-RDK-X5 Python依赖
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 # 用于Ubuntu主机上的模型转换和工具脚本
 
 # YOLOv11核心库

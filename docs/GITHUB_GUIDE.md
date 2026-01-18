@@ -1,6 +1,10 @@
 # GitHub操作指南 - 从零开始发布项目
 
+<<<<<<< HEAD
 本指南将手把手教你如何将RDKX5-YOLOv11n-项目上传到GitHub并开源。
+=======
+本指南将手把手教你如何将YOLOv11n-RDK-X5项目上传到GitHub并开源。
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ## 📋 前置准备
 
@@ -66,7 +70,11 @@ git config --global --list
 3. 填写仓库信息：
 
    ```
+<<<<<<< HEAD
    Repository name: RDKX5-YOLOv11n-
+=======
+   Repository name: YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    Description: YOLOv11n部署到地平线RDK X5，实现47 FPS实时目标检测
    
    [ ] Public  （选这个，公开项目）
@@ -83,8 +91,13 @@ git config --global --list
 
 创建后会看到一个页面，有两种地址：
 
+<<<<<<< HEAD
 - **HTTPS**: `https://github.com/你的用户名/RDKX5-YOLOv11n-.git`
 - **SSH**: `git@github.com:你的用户名/RDKX5-YOLOv11n-.git`
+=======
+- **HTTPS**: `https://github.com/你的用户名/YOLOv11n-RDK-X5.git`
+- **SSH**: `git@github.com:你的用户名/YOLOv11n-RDK-X5.git`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 我们使用HTTPS方式（更简单）。
 
@@ -98,8 +111,13 @@ git config --global --list
 
 ```bash
 # 创建项目根目录
+<<<<<<< HEAD
 mkdir -p ~/RDKX5-YOLOv11n-
 cd ~/RDKX5-YOLOv11n-
+=======
+mkdir -p ~/YOLOv11n-RDK-X5
+cd ~/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 复制所有准备好的文件
 # （从 /mnt/user-data/outputs/github_project/ 复制）
@@ -157,7 +175,11 @@ sed -i "s/\[Your Name\]/$YOUR_NAME/g" README.md LICENSE
 ### 3.1 初始化本地仓库
 
 ```bash
+<<<<<<< HEAD
 cd ~/RDKX5-YOLOv11n-
+=======
+cd ~/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 初始化Git仓库
 git init
@@ -196,13 +218,22 @@ git log
 
 ```bash
 # 添加远程仓库地址（替换成你的地址）
+<<<<<<< HEAD
 git remote add origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote add origin https://github.com/你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 验证远程仓库
 git remote -v
 # 应该看到：
+<<<<<<< HEAD
 # origin  git@github.com:你的用户名/RDKX5-YOLOv11n-.git (fetch)
 # origin  git@github.com:你的用户名/RDKX5-YOLOv11n-.git (push)
+=======
+# origin  https://github.com/你的用户名/YOLOv11n-RDK-X5.git (fetch)
+# origin  https://github.com/你的用户名/YOLOv11n-RDK-X5.git (push)
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### 4.2 推送到GitHub
@@ -211,6 +242,7 @@ git remote -v
 # 推送到main分支（GitHub新仓库默认是main）
 git push -u origin main
 
+<<<<<<< HEAD
 # 如果你使用的是 SSH 远程地址（git@github.com:...），正常情况下不会要求输入用户名和密码
 # 如果遇到 Permission denied (publickey)，说明 SSH Key 未配置或未添加到 GitHub
 #（如需走 HTTPS 方式推送，才需要使用 Personal Access Token，见下文）
@@ -219,11 +251,25 @@ git push -u origin main
 ### 4.3 创建Personal Access Token（仅在使用 HTTPS 推送时需要）
 
 如果你使用的是 HTTPS 远程地址并且推送时提示密码错误，需要创建 Token：
+=======
+# 第一次推送会要求输入GitHub用户名和密码
+# 用户名：你的GitHub用户名
+# 密码：需要使用Personal Access Token（见下文）
+```
+
+### 4.3 创建Personal Access Token（如果需要）
+
+如果推送时提示密码错误，需要创建Token：
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 1. 访问 https://github.com/settings/tokens
 2. 点击 **Generate new token** → **Generate new token (classic)**
 3. 填写信息：
+<<<<<<< HEAD
    - Note: `RDKX5-YOLOv11n-`
+=======
+   - Note: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    - Expiration: `90 days`（或自定义）
    - 勾选权限：`repo` （全部勾选）
 4. 点击 **Generate token**
@@ -249,7 +295,11 @@ git push -u origin main
 
 在浏览器中访问：
 ```
+<<<<<<< HEAD
 https://github.com/你的用户名/RDKX5-YOLOv11n-
+=======
+https://github.com/你的用户名/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 你应该看到：
@@ -298,9 +348,15 @@ git push
 ```markdown
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Platform](https://img.shields.io/badge/platform-RDK%20X5-green)
+<<<<<<< HEAD
 ![Stars](https://img.shields.io/github/stars/你的用户名/RDKX5-YOLOv11n-)
 ![Forks](https://img.shields.io/github/forks/你的用户名/RDKX5-YOLOv11n-)
 ![Issues](https://img.shields.io/github/issues/你的用户名/RDKX5-YOLOv11n-)
+=======
+![Stars](https://img.shields.io/github/stars/你的用户名/YOLOv11n-RDK-X5)
+![Forks](https://img.shields.io/github/forks/你的用户名/YOLOv11n-RDK-X5)
+![Issues](https://img.shields.io/github/issues/你的用户名/YOLOv11n-RDK-X5)
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### 6.3 添加GitHub Topics
@@ -414,7 +470,11 @@ git push
 git remote -v
 
 # 如果是SSH地址但你没配置SSH Key，改为HTTPS
+<<<<<<< HEAD
 git remote set-url origin git@github.com:你的用户名/RDKX5-YOLOv11n-.git
+=======
+git remote set-url origin https://github.com/你的用户名/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 ### Q2: 文件太大无法推送

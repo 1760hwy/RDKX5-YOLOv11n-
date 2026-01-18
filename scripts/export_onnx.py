@@ -2,7 +2,11 @@
 """
 导出YOLOv11n ONNX模型（6输出版本）
 
+<<<<<<< HEAD
 作者: RDKX5-YOLOv11n-项目
+=======
+作者: YOLOv11n-RDK-X5项目
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 许可证: MIT
 """
 

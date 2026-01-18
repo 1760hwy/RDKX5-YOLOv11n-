@@ -1,6 +1,10 @@
 # 贡献指南
 
+<<<<<<< HEAD
 首先，感谢你考虑为RDKX5-YOLOv11n-项目做出贡献！
+=======
+首先，感谢你考虑为YOLOv11n-RDK-X5项目做出贡献！
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 本文档提供了参与项目开发的指导方针。
 
@@ -88,8 +92,13 @@
 2. **克隆你的Fork**
 
    ```bash
+<<<<<<< HEAD
    git clone git@github.com:your-username/RDKX5-YOLOv11n-.git
    cd RDKX5-YOLOv11n-
+=======
+   git clone https://github.com/your-username/YOLOv11n-RDK-X5.git
+   cd YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
    ```
 
 3. **创建分支**
@@ -254,8 +263,13 @@ git commit -m "perf(postprocess): optimize DFL decoding speed"
 
 ```bash
 # 1. 克隆仓库
+<<<<<<< HEAD
 git clone git@github.com:your-username/RDKX5-YOLOv11n-.git
 cd RDKX5-YOLOv11n-
+=======
+git clone https://github.com/your-username/YOLOv11n-RDK-X5.git
+cd YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 2. 创建虚拟环境
 python3 -m venv venv
@@ -297,7 +311,11 @@ python -m pytest --cov=rdk_deployment tests/
 如果你有任何问题：
 
 - 查看[FAQ文档](docs/faq_zh.md)
+<<<<<<< HEAD
 - 在[Discussions](https://github.com/your-username/RDKX5-YOLOv11n-/discussions)提问
+=======
+- 在[Discussions](https://github.com/your-username/YOLOv11n-RDK-X5/discussions)提问
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 - 发送邮件到 your-email@example.com
 
 ## 感谢

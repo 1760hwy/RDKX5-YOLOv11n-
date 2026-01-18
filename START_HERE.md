@@ -71,8 +71,13 @@ github_project/
 # 在Ubuntu虚拟机执行
 
 # 创建项目目录
+<<<<<<< HEAD
 mkdir -p ~/RDKX5-YOLOv11n-
 cd ~/RDKX5-YOLOv11n-
+=======
+mkdir -p ~/YOLOv11n-RDK-X5
+cd ~/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 复制已准备好的文件
 cp -r /mnt/user-data/outputs/github_project/* .
@@ -98,7 +103,11 @@ sed -i "s/\[Your Name\]/$YOUR_NAME/g" README.md LICENSE
 3. **在GitHub创建仓库**
 
 - 访问 https://github.com/new
+<<<<<<< HEAD
 - Repository name: `RDKX5-YOLOv11n-`
+=======
+- Repository name: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 - Description: `YOLOv11n部署到地平线RDK X5，实现47 FPS实时检测`
 - 选择 **Public**
 - **不要勾选**任何初始化选项
@@ -113,11 +122,16 @@ git add .
 git commit -m "Initial commit: YOLOv11n RDK X5 deployment project"
 
 # 关联远程仓库（替换为你的用户名）
+<<<<<<< HEAD
 git remote add origin git@github.com:$YOUR_USERNAME/RDKX5-YOLOv11n-.git
+=======
+git remote add origin https://github.com/$YOUR_USERNAME/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 推送
 git push -u origin main
 
+<<<<<<< HEAD
 # SSH 方式推送通常不会要求输入用户名和密码
 # 若出现 Permission denied (publickey)，请检查 SSH Key 是否已添加到 GitHub
 ```
@@ -127,6 +141,18 @@ git push -u origin main
 - 访问 https://github.com/settings/tokens
 - Generate new token (classic)
 - Note: `RDKX5-YOLOv11n-`
+=======
+# 第一次需要输入：
+# Username: 你的GitHub用户名
+# Password: Personal Access Token（不是密码！）
+```
+
+5. **创建Personal Access Token（如果需要）**
+
+- 访问 https://github.com/settings/tokens
+- Generate new token (classic)
+- Note: `YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 - 勾选 `repo`
 - Generate token
 - **复制Token**（只显示一次！）
@@ -134,7 +160,11 @@ git push -u origin main
 
 6. **验证上传成功**
 
+<<<<<<< HEAD
 访问 `https://github.com/你的用户名/RDKX5-YOLOv11n-`
+=======
+访问 `https://github.com/你的用户名/YOLOv11n-RDK-X5`
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 应该看到README显示在首页！
 
@@ -149,7 +179,11 @@ git push -u origin main
 2. **添加剩余文件**
 
 ```bash
+<<<<<<< HEAD
 cd ~/RDKX5-YOLOv11n-
+=======
+cd ~/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 创建缺失的目录
 mkdir -p configs rdk_deployment examples
@@ -291,7 +325,11 @@ YOLOv11n部署到地平线RDK X5，实现47 FPS实时目标检测。解决Softma
 ### 收到Issue时
 
 ```bash
+<<<<<<< HEAD
 # 查看Issue：https://github.com/你的用户名/RDKX5-YOLOv11n-/issues
+=======
+# 查看Issue：https://github.com/你的用户名/YOLOv11n-RDK-X5/issues
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 # 如果是Bug，创建修复分支
 git checkout -b fix/issue-123
@@ -367,7 +405,11 @@ git push
 
 **项目地址**（上传后）：
 ```
+<<<<<<< HEAD
 https://github.com/你的用户名/RDKX5-YOLOv11n-
+=======
+https://github.com/你的用户名/YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 如有问题，欢迎随时询问！

@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 <div id="top"></div>
 
 # RDKX5-YOLOv11n- 🚀
 
 [English](README_EN.md) | 简体中文
+=======
+# YOLOv11n-RDK-X5 🚀
+
+[English](README.md) | 简体中文
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 <div align="center">
 
@@ -81,8 +87,13 @@
 #### 步骤1：克隆项目
 
 ```bash
+<<<<<<< HEAD
 git clone git@github.com:1760hwy/RDKX5-YOLOv11n-.git
 cd RDKX5-YOLOv11n-
+=======
+git clone https://github.com/1760hwy/YOLOv11n-RDK-X5.git
+cd YOLOv11n-RDK-X5
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ```
 
 #### 步骤2：环境准备
@@ -211,7 +222,11 @@ export RDK_IP=192.168.43.7
 ## 📁 项目结构
 
 ```
+<<<<<<< HEAD
 RDKX5-YOLOv11n-/
+=======
+YOLOv11n-RDK-X5/
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 ├── README.md                          # 项目说明
 ├── README_EN.md                       # English README
 ├── LICENSE                            # MIT许可证
@@ -281,8 +296,13 @@ RDKX5-YOLOv11n-/
 
 感谢所有为本项目做出贡献的开发者！
 
+<<<<<<< HEAD
 <a href="https://github.com/1760hwy/RDKX5-YOLOv11n-/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=your-username/RDKX5-YOLOv11n-" />
+=======
+<a href="https://github.com/1760hwy/YOLOv11n-RDK-X5/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=your-username/YOLOv11n-RDK-X5" />
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 </a>
 
 ---
@@ -304,8 +324,13 @@ RDKX5-YOLOv11n-/
 
 ## 📞 联系方式
 
+<<<<<<< HEAD
 - 项目主页：https://github.com/1760hwy/RDKX5-YOLOv11n-
 - 问题反馈：https://github.com/1760hwy/RDKX5-YOLOv11n-/issues
+=======
+- 项目主页：https://github.com/1760hwy/YOLOv11n-RDK-X5
+- 问题反馈：https://github.com/1760hwy/YOLOv11n-RDK-X5/issues
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 - 邮箱：1580195000@qq.com
 
 ---
@@ -314,13 +339,21 @@ RDKX5-YOLOv11n-/
 
 如果这个项目对你有帮助，请给我们一个Star ⭐！
 
+<<<<<<< HEAD
 [![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/RDKX5-YOLOv11n-&type=Date)](https://star-history.com/1760hwy/RDKX5-YOLOv11n-&Date)
+=======
+[![Star History Chart](https://api.star-history.com/svg?repos=1760hwy/YOLOv11n-RDK-X5&type=Date)](https://star-history.com/1760hwy/YOLOv11n-RDK-X5&Date)
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 ---
 
 <div align="center">
 
+<<<<<<< HEAD
 **[⬆ 返回顶部](#top)**
+=======
+**[⬆ 返回顶部](#yolov11n-rdk-x5-)**
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 
 Made with ❤️ by [Your Name]
 

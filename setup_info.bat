@@ -1,7 +1,11 @@
 @echo off
 chcp 65001 >nul
 echo ========================================
+<<<<<<< HEAD
 echo RDKX5-YOLOv11n- 个人信息替换脚本
+=======
+echo YOLOv11n-RDK-X5 个人信息替换脚本
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 echo ========================================
 echo.
 
@@ -26,6 +30,7 @@ REM 使用PowerShell进行替换
 powershell -Command "(Get-Content README.md -Raw) -replace 'your-username', '%GITHUB_USERNAME%' -replace 'your-email@example.com', '%EMAIL%' -replace '\[Your Name\]', '%NAME%' | Set-Content README.md -NoNewline"
 echo ✓ README.md 已更新
 
+<<<<<<< HEAD
 powershell -Command "(Get-Content README_EN.md -Raw) -replace 'your-username', '%GITHUB_USERNAME%' -replace 'your-email@example.com', '%EMAIL%' -replace '\\[Your Name\\]', '%NAME%' | Set-Content README_EN.md -NoNewline"
 echo ✓ README_EN.md 已更新
 
@@ -33,6 +38,8 @@ powershell -Command "(Get-Content README_ZH.md -Raw) -replace 'your-username', '
 echo ✓ README_ZH.md 已更新
 
 
+=======
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 powershell -Command "(Get-Content LICENSE -Raw) -replace 'your-email@example.com', '%EMAIL%' -replace '\[Your Name\]', '%NAME%' | Set-Content LICENSE -NoNewline"
 echo ✓ LICENSE 已更新
 
@@ -57,7 +64,11 @@ echo 3. 如果使用命令行：
 echo    git init
 echo    git add .
 echo    git commit -m "Initial commit"
+<<<<<<< HEAD
 echo    git remote add origin git@github.com:%GITHUB_USERNAME%/RDKX5-YOLOv11n-.git
+=======
+echo    git remote add origin https://github.com/%GITHUB_USERNAME%/YOLOv11n-RDK-X5.git
+>>>>>>> 7936bda8c16ede98a8b7e2b878154dd7cba33ed6
 echo    git push -u origin main
 echo.
 
