@@ -306,7 +306,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 - Project Homepage: https://github.com/1760hwy/RDKX5-YOLOv11n-
 - Issue Tracker: https://github.com/1760hwy/RDKX5-YOLOv11n-/issues
-- Email: 1580195000@qq.com
+- Email: hwy_hn@163.com
 
 ---
 
