@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# RDKX5-YOLOv11n-INT8 🚀
+# YOLOv11n-INT8 🚀
 
 English | [简体中文](README_ZH.md)
 
